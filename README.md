@@ -6,8 +6,9 @@ Welcome to the System verilog Repository! This repository aims to provide a comp
 - [Fundamentals of Design Verification](#Fundamentals-of-Design-Verification)
 
   
-## Introduction To AMBA Specification
+## Fundamentals of Design Verification
 
-Advanced Microprocessor Bus Architecture(AMBA) is on chip communications standard for designing high-performance embedded microcontrollers.
-
-Based on AMBA there are three distint 
+There are three types of signals in a design. They are:
+1. Global signals: Signals that are visiable to the entire design,e.g CLK, RST signals.
+2. Data signals: Signals that hold some data, e.g rdata, wdata
+3. Control signals: Signals that control various operations.
